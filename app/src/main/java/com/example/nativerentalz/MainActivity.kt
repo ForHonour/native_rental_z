@@ -176,9 +176,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * When our handleUpdates data button is clicked
-     */
     private fun handleUpdate() {
         updateButton.setOnClickListener {
             if (formIsValidated()) {
@@ -207,9 +204,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * When our handleDeletes button is clicked
-     */
     private fun handleDelete() {
         deleteButton.setOnClickListener {
             try {
@@ -222,9 +216,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * When our View All is clicked
-     */
     private fun handleView() {
         viewButton.setOnClickListener(
             View.OnClickListener {

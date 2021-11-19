@@ -7,10 +7,7 @@ import android.content.ContentValues
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 
-/**
- * Let's start by creating our database CRUD helper class
- * based on the SQLiteHelper.
- */
+
 class SQLHelper(context: Context) :
     SQLiteOpenHelper(context, DATABASE_NAME, null, 1) {
 
@@ -84,28 +81,19 @@ class SQLHelper(context: Context) :
         return true
     }
 
-    /**
-     * Let's create a function to delete a given row based on the id.
-     */
     fun deleteData(id: String): Int {
         val db = this.writableDatabase
         return db.delete(TABLE_NAME, "ID = ?", arrayOf(id))
     }
 
-    /**
-     * The below getter property will return a Cursor containing our dataset.
-     */
+    // Cursor containing dataset
     val allData: Cursor
         get() {
             val db = this.writableDatabase
             return db.rawQuery("SELECT * FROM $TABLE_NAME", null)
         }
 
-    /**
-     * Let's create a companion object to hold our static fields.
-     * A Companion object is an object that is common to all instances of a given
-     * class.
-     */
+    // Static Variables
     companion object {
         val DATABASE_NAME = "rentalz.db"
         val TABLE_NAME = "properties"
