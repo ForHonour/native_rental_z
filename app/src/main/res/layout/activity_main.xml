@@ -216,7 +216,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="20"
             android:padding="0dp"
-            android:text="Bedroom"
+            android:text="Bedroom*"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
 
