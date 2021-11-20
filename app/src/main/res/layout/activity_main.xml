@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Fill in here if you want to update"
+            android:hint="@string/id_text"
             android:inputType="number" />
     </LinearLayout>
 
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Property Name"
+            android:hint="@string/property_name_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Property Address"
+            android:hint="@string/property_address_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Property Type (e.g. flat, house)"
+            android:hint="@string/property_type_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -191,7 +191,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Furniture Type (e.g. furnished) "
+            android:hint="@string/furniture_type_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -226,7 +226,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="e.g. 2 bedrooms"
+            android:hint="@string/property_bedrooms_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -261,7 +261,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="$4000/month"
+            android:hint="@string/property_price_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -296,7 +296,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Date and Time added"
+            android:hint="@string/date_and_time_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -332,7 +332,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Name of the Reporter"
+            android:hint="@string/reporter_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -368,7 +368,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="Leave your comments here. "
+            android:hint="@string/notes_text"
             android:inputType="text" />
     </LinearLayout>
 
@@ -394,7 +394,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:text="Add" />
+            android:text="@string/add_button_text" />
 
         <Button
             android:id="@+id/view_button"
@@ -403,7 +403,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:text="View Items" />
+            android:text="@string/view_button_text" />
     </LinearLayout>
 
     <LinearLayout
@@ -428,7 +428,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:text="Update" />
+            android:text="@string/update_button_text" />
 
         <Button
             android:id="@+id/delete_button"
@@ -437,7 +437,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:text="Delete" />
+            android:text="@string/delete_button_text" />
     </LinearLayout>
 
 
